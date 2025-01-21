@@ -3,10 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-<<<<<<< HEAD
     <RuntimeIdentifiers>linux-musl-arm64</RuntimeIdentifiers>
-=======
->>>>>>> 2c71291da27ea1c0af615f19c9342fa1d440af8d
     <DefineConstants Condition=" '$(ExtraDefineConstants)' != '' ">$(DefineConstants);$(ExtraDefineConstants)</DefineConstants>
     <PublishAot>true</PublishAot>
     <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
@@ -16,7 +13,7 @@
     <PackageReference Include="NetCoreServer" Version="8.0.7" />
     <PackageReference Include="NRedisStack" Version="0.11.0" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <Content Include="Utils/gamelist.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -24,8 +21,5 @@
     </Content>
   </ItemGroup>
 
-<<<<<<< HEAD
 </Project>
-=======
-</Project>
->>>>>>> 2c71291da27ea1c0af615f19c9342fa1d440af8d
+
