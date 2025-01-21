@@ -13,7 +13,8 @@ namespace LanPlayServer
     {
         private static readonly IPAddress Host = IPAddress.Parse(Environment.GetEnvironmentVariable("LDN_HOST") ?? "0.0.0.0");
         private static readonly int Port = int.Parse(Environment.GetEnvironmentVariable("LDN_PORT") ?? "30456");
-        private static readonly string GamelistPath = Environment.GetEnvironmentVariable("LDN_GAMELIST_PATH") ?? "gamelist.json";
+        //private static readonly string GamelistPath = Environment.GetEnvironmentVariable("LDN_GAMELIST_PATH") ?? "gamelist.json";
+        private static readonly string GamelistPath =  Environment.GetEnvironmentVariable("LDN_GAMELIST_PATH") ?? "LdnServer/Utils/gamelist.json";
         private static readonly string RedisSocketPath = Environment.GetEnvironmentVariable("LDN_REDIS_SOCKET") ?? "";
         private static readonly string RedisHost = Environment.GetEnvironmentVariable("LDN_REDIS_HOST") ?? "127.0.0.1";
         private static readonly int RedisPort = int.Parse(Environment.GetEnvironmentVariable("LDN_REDIS_PORT") ?? "6379");
