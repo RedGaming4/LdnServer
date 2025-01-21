@@ -38,7 +38,7 @@ namespace LanPlayServer
             Console.WriteLine(@" |____|_  / / ____||____/ /\__|  ||__||___|  //__/\_ \ |_______ \\____ | |___|  /");
             Console.WriteLine(@"        \/  \/            \______|         \/       \/         \/     \/      \/ ");
             Console.WriteLine();
-            Console.WriteLine( "_________________________________________________________________________________");
+            Console.WriteLine( "____________________________Emilio__Laurenti___________________________________________________");
             Console.WriteLine();
             Console.WriteLine("- Information");
 
